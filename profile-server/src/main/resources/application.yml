@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: profile
+  cloud:
+    config:
+      profile: prod
+  jpa:
+    hibernate:
+      ddl-auto: update
