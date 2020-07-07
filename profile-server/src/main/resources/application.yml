@@ -7,3 +7,11 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://localhost:9092/oauth/check_token
+    client:
+      client-id: mobile
+      client-secret: pin
